@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2020-06-15T21:33:11.977Z",
-    "end": "2020-06-15T21:33:13.820Z",
-    "duration": 1843,
+    "start": "2020-07-17T21:13:16.984Z",
+    "end": "2020-07-17T21:13:18.826Z",
+    "duration": 1842,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "92224a3a-2105-4d7a-86b5-7da99c8a21cf",
+      "uuid": "d46012d2-b259-4461-a4d0-82655808a117",
       "title": "",
       "fullFile": "cypress/integration/backend-auth-assignment02.spec.js",
       "file": "cypress/integration/backend-auth-assignment02.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "218079c4-6314-44d2-98df-54ad1ea5a4d8",
+          "uuid": "727dc5cb-67e6-4ba5-954a-d3e85121988f",
           "title": "testing auth",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "test case 1 - Create a new Random Bill (GET & POST)",
               "fullTitle": "testing auth test case 1 - Create a new Random Bill (GET & POST)",
               "timedOut": null,
-              "duration": 647,
+              "duration": 660,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "billHelpers.createBillRequest(cy);",
               "err": {},
-              "uuid": "0e7aef75-006a-4dee-81f4-063ee8c1ce8f",
-              "parentUUID": "218079c4-6314-44d2-98df-54ad1ea5a4d8",
+              "uuid": "ebf41c4a-26f7-48dd-a2cc-54a815ca76a4",
+              "parentUUID": "727dc5cb-67e6-4ba5-954a-d3e85121988f",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "test case 2 - Create & Get all bills (GET & POST)",
               "fullTitle": "testing auth test case 2 - Create & Get all bills (GET & POST)",
               "timedOut": null,
-              "duration": 587,
+              "duration": 583,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "billHelpers.createBillRequest(cy);",
               "err": {},
-              "uuid": "d57925d3-0268-4b93-b050-51424afb0cca",
-              "parentUUID": "218079c4-6314-44d2-98df-54ad1ea5a4d8",
+              "uuid": "1ea3edb2-a5e1-4fc0-a914-6d7d5271fd10",
+              "parentUUID": "727dc5cb-67e6-4ba5-954a-d3e85121988f",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "test case 3 - Creatre a Bill & delete it (GET, POST & DELETE)",
               "fullTitle": "testing auth test case 3 - Creatre a Bill & delete it (GET, POST & DELETE)",
               "timedOut": null,
-              "duration": 569,
+              "duration": 577,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "billHelpers.createBillRequestAndDelete(cy);",
               "err": {},
-              "uuid": "eed34c75-ddd2-44f3-8716-37f49d1d97f4",
-              "parentUUID": "218079c4-6314-44d2-98df-54ad1ea5a4d8",
+              "uuid": "5516e015-8964-4c14-8375-f0f0d9a426fa",
+              "parentUUID": "727dc5cb-67e6-4ba5-954a-d3e85121988f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "0e7aef75-006a-4dee-81f4-063ee8c1ce8f",
-            "d57925d3-0268-4b93-b050-51424afb0cca",
-            "eed34c75-ddd2-44f3-8716-37f49d1d97f4"
+            "ebf41c4a-26f7-48dd-a2cc-54a815ca76a4",
+            "1ea3edb2-a5e1-4fc0-a914-6d7d5271fd10",
+            "5516e015-8964-4c14-8375-f0f0d9a426fa"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1803,
+          "duration": 1820,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
